@@ -1,3 +1,6 @@
 def call() {
-    sh 'mvn clean install'
+    echo "building the package"
+    sh '''
+    mvn clean install
+    '''
 }
